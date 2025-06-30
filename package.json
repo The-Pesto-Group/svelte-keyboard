@@ -32,7 +32,20 @@
 		"typescript": "^4.5.5"
 	},
 	"exports": {
-		".": "./Keyboard.svelte"
+		"./package.json": "./package.json",
+		"./.DS_Store": "./.DS_Store",
+		"./Keyboard.svelte": "./Keyboard.svelte",
+		"./layouts/azerty/crossword": "./layouts/azerty/crossword.js",
+		"./layouts/azerty/standard": "./layouts/azerty/standard.js",
+		"./layouts/azerty/wordle": "./layouts/azerty/wordle.js",
+		"./layouts/qwerty/crossword": "./layouts/qwerty/crossword.js",
+		"./layouts/qwerty/standard": "./layouts/qwerty/standard.js",
+		"./layouts/qwerty/wordle": "./layouts/qwerty/wordle.js",
+		"./svg/backspace": "./svg/backspace.js",
+		"./svg/enter": "./svg/enter.js",
+		".": {
+			"svelte": "./Keyboard.svelte"
+		}
 	},
 	"type": "module",
 	"typings": "./Keyboard.svelte.d.ts"
